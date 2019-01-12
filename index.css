@@ -1,0 +1,171 @@
+:root{
+	font-size:16px;
+}
+
+body{
+	background : url(img1.jpg);
+}
+img{
+	height: 67px;
+	width: 67px;
+	border-radius: 50%;
+	margin-top: 2%;
+	margin-right: 5%;
+	margin-left: 2%;
+}
+
+
+.bg {
+    background:  transparent ;
+    
+    height: 15vh;
+}
+
+.bgl {
+    background: transparent;
+    height: 15vh;
+}
+
+
+.title{
+	font-size: 1.5rem;
+	font-family: 'lobster' , 'cursive';
+	/* color:white; */
+	text-align: left;
+	padding: 2%;
+}
+
+/* .titlel{
+	background: turquoise;
+	font-size: 1.5rem;
+	color:white;
+	text-align: left;
+	padding: 2%;
+} */
+
+
+.chats{
+	color:moccasin;
+	text-align: center;
+	font-size: 1.2rem;
+
+}
+
+/* font here */
+.search{
+	
+	padding:3%;
+	color:white;
+	font-size: 1.2rem;
+
+}
+
+/* font here */
+.user_names{
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: left
+}
+
+.user_btn{
+	background-color: white;
+	height:100%;
+	width: 100%;
+}
+
+.exp{
+
+	width: 100%;
+	height: auto;
+
+}
+.sml{
+	padding: 0px;
+	text-align: left;
+	
+}
+
+
+.frame{
+	
+	height:100vh;
+	width:50vw;
+	border:1px solid orange;
+}
+
+@media screen and ( min-width : 300px) and (max-width :480px ) {
+
+	.title{
+	font-size: 2.3rem;
+	}
+	/* .image{
+		width: 75px;
+		height: 75px;
+		border-radius: 50%;
+		-webkit-filter: grayscale(100%);
+		filter: grayscale(100%);
+		border-color: blueviolet;
+	} */
+
+	.chats{
+		font-size: 1.8 rem;
+	}
+
+	.search{
+		font-size: 1.8 rem;
+	}
+	.user_names{
+		font-size: 1.8 rem;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width :719px){
+
+		.title{
+			font-size: 2.1rem;
+		}
+		.chats{
+			font-size: 1.6 rem;
+		}
+	
+		.search{
+			font-size: 1.6 rem;
+		}
+		.user_names{
+			font-size: 0.3 rem;
+		}
+
+}
+@media screen and (min-width : 720px) and (max-width : 991px){
+
+		.title{
+			font-size: 2rem;
+		}
+		.chats{
+			font-size: 1.5 rem;
+		}
+	
+		.search{
+			font-size: 1.5 rem;
+		}
+		.user_names{
+			font-size: 1.5 rem;
+		}
+
+}
+
+@media screen and (min-width : 992px) and (max-width : 1023px){
+		.title{
+			font-size: 2rem;
+		}
+		.chats{
+			font-size: 1.4 rem;
+		}
+	
+		.search{
+			font-size: 1.4 rem;
+		}
+		.user_names{
+			font-size: 1.4 rem;
+		}
+}
